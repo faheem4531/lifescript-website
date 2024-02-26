@@ -1,6 +1,5 @@
 import { Box, Typography } from "@mui/material";
 import Logo from "@/app/_assets/svgs/logo.svg"
-import Line from "@/app/_assets/svgs/under-line.svg"
 import Image from "next/image";
 import styles from './NavBar.module.css'
 import Button from "../button/Button";
@@ -12,7 +11,7 @@ const NavBar = () => {
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      margin: { xl: '64px 106px 0', lg: '50px 90px 0' },
+      margin: '64px 106px 0',
     }}>
       <Image src={Logo} alt="Logo" className={styles.logo} />
       <Box sx={{
