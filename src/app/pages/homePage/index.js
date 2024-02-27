@@ -2,6 +2,7 @@ import NavBar from "@/app/components/navBar/NavBar";
 import { Box } from "@mui/material";
 import Introduction from "./sections/introduction/Introduction";
 import Working from "@/app/components/working/Working";
+import Suggestion from "./sections/suggestion/Suggestion";
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <NavBar />
       <Introduction />
       <Working />
+      <Suggestion />
     </Box>
   )
 }
