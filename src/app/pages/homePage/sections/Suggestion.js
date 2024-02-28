@@ -1,20 +1,9 @@
 import FlowerLine from "@/app/_assets/pngs/full-style.png"
 import { Box, Typography } from "@mui/material";
 import Image from "next/image";
-import styles from "../HomeSections.module.css"
+import styles from "./HomeSections.module.css"
+import Content from "@/app/components/headings/Content";
 
-function Content({ heading, subHeading }) {
-  return (
-    <Box sx={{ maxWidth: "500px", marginBottom: "25px" }}>
-      <Typography sx={{ fontSize: "32px", fontWeight: 500, marginBottom: "20px" }}>
-        {heading}
-      </Typography>
-      <Typography sx={{ fontSize: "16px" }}>
-        {subHeading}
-      </Typography>
-    </Box>
-  )
-}
 
 const Suggestion = () => {
 
@@ -58,6 +47,8 @@ const Suggestion = () => {
             content.map((item) => <Content
               heading={item.title}
               subHeading={item.subTitle}
+              marginB="25px"
+              subWidth="80%"
             />)
           }
         </Box>
@@ -65,5 +56,6 @@ const Suggestion = () => {
     </Box>
   )
 }
+
 
 export default Suggestion;
