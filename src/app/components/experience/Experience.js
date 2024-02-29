@@ -4,9 +4,11 @@ import { Box, Typography } from "@mui/material";
 import PrimaryHeading from "../headings/PrimaryHeading";
 import FlowerLine from "@/app/_assets/pngs/full-style.png"
 import Image from "next/image";
-import ExperienceImage from "@/app/_assets/pngs/experience.png"
 import styles from "../ComponentsStyles.module.css"
+import Narrative from "@/app/_assets/gif/narrative.gif"
 import { useState } from "react";
+import Bandage from "@/app/_assets/pngs/bandage.png"
+import CustomizedAccordions from "./Accordion";
 
 const accordianData = [
   {
@@ -36,11 +38,13 @@ const accordianData = [
 ]
 
 const Experience = () => {
+
   const [openAccordionIndex, setOpenAccordionIndex] = useState(null);
 
   const handleAccordionClick = (index) => {
-    setOpenAccordionIndex(index === openAccordionIndex ? null : index);
+    setOpenAccordionIndex((prevIndex) => (prevIndex === index ? null : index));
   };
+
   return (
     <Box sx={{ margin: '220px 0  120px' }}
     >
@@ -50,20 +54,22 @@ const Experience = () => {
       </Box>
 
       <Box sx={{ margin: "220px 60px 240px 130px", display: "flex", justifyContent: "space-between", alignItems: "center  " }}>
-        <Box sx={{ bgcolor: "", maxHeight: "460px" }}>
-          {accordianData.map((item, index) => <Accordion
+        <Box sx={{ bgcolor: "red", maxHeight: "460px" }}>
+          <CustomizedAccordions />
+          {/* {accordianData.map((item, index) => <Accordion
             key={index}
             title={item.title}
             data={item.data}
             open={index === openAccordionIndex}
             onClick={() => handleAccordionClick(index)}
           />
-          )}
+          )} */}
         </Box>
-        <Image src={ExperienceImage} alt="image" />
+        <Box sx={{ position: "relative" }}>
+          <Image src={Narrative} alt="image" className={styles.gif} />
+          <Image src={Bandage} alt="image" className={styles.bandage} />
+        </Box>
       </Box>
-
-
     </Box >
   )
 }
@@ -73,7 +79,7 @@ export default Experience;
 function Accordion({ data, title, open, onClick }) {
 
   return (
-    <Box>
+    <Box sx={{ marginBottom: "30px" }}>
       <details open={open} onClick={onClick}>
         <summary className={`${styles.summary}`}>{title}</summary>
         <Box>

@@ -14,3 +14,14 @@
 .open {
   color: #3E4F3C;
 }
+
+.gif {
+  width: 613px;
+  height: 380px;
+}
+
+.bandage {
+  position: absolute;
+  right: -50px;
+  top: -50px;
+}
