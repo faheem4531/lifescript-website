@@ -3,7 +3,8 @@ import FlowerLine from "@/app/_assets/pngs/full-style.png"
 import Image from "next/image";
 import styles from "./HomeSections.module.css"
 import Content from "@/app/components/headings/Content";
-
+import Heroimage from "@/app/_assets/pngs/suggestion-hero.png"
+import ListPoints from "@/app/_assets/pngs/curved-list.png"
 
 const Suggestion = () => {
 
@@ -40,18 +41,22 @@ const Suggestion = () => {
         </Typography>
         <Image src={FlowerLine} alt="logo" className={styles.fullStyle} />
       </Box >
-      <Box sx={{ margin: "160px 0 0 170px" }}>
+      <Box sx={{ margin: "160px 85px 0 105px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         {/* left Section  */}
-        <Box>
-          {
-            content.map((item) => <Content
-              heading={item.title}
-              subHeading={item.subTitle}
-              marginB="25px"
-              subWidth="80%"
-            />)
-          }
+        <Box sx={{ bgcolor: "", display: "flex", alignItems: "center " }}>
+          <Image src={ListPoints} alt="points" />
+          <Box sx={{ marginLeft: "30px" }}>
+            {
+              content.map((item) => <Content
+                heading={item.title}
+                subHeading={item.subTitle}
+                marginB="25px"
+                subWidth="80%"
+              />)
+            }
+          </Box>
         </Box>
+        <Image src={Heroimage} alt="image" />
       </Box>
     </Box>
   )
