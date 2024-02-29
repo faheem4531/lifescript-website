@@ -25,7 +25,7 @@ const NavBar = () => {
         <Typography sx={{ padding: ' 0 20px 10px' }}>Features</Typography>
         <Typography sx={{ padding: ' 0 20px 10px' }}>Blog</Typography>
         <Typography sx={{ padding: ' 0 20px 10px' }}>About Us</Typography>
-        <Typography sx={{ padding: ' 0 20px 10px' }}>FAQ's</Typography>
+        <Typography sx={{ padding: ' 0 20px 10px' }}>FAQ &apos; s</Typography>
 
         <Box sx={{ paddingBottom: '10px' }}>
           <Button

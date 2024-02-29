@@ -47,7 +47,8 @@ const Suggestion = () => {
           <Image src={ListPoints} alt="points" />
           <Box sx={{ marginLeft: "30px" }}>
             {
-              content.map((item) => <Content
+              content.map((item, index) => <Content
+                key={index}
                 heading={item.title}
                 subHeading={item.subTitle}
                 marginB="25px"
