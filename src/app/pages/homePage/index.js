@@ -5,6 +5,7 @@ import Introduction from "./sections/Introduction";
 import Suggestion from "./sections/Suggestion";
 import StoryTelling from "./sections/StoryTelling";
 import Reviews from "./sections/Reviews";
+import Experience from "@/app/components/experience/Experience";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Suggestion />
       <StoryTelling />
       <Reviews />
+      <Experience />
     </Box>
   )
 }

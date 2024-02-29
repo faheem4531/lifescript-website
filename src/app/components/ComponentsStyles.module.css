@@ -1,0 +1,16 @@
+/* Experience  */
+
+.summary {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+
+.close {
+  color: #000;
+  opacity: 0.2;
+}
+
+.open {
+  color: #3E4F3C;
+}

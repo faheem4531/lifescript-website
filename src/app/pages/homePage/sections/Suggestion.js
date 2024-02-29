@@ -1,5 +1,5 @@
-import FlowerLine from "@/app/_assets/pngs/full-style.png"
 import { Box, Typography } from "@mui/material";
+import FlowerLine from "@/app/_assets/pngs/full-style.png"
 import Image from "next/image";
 import styles from "./HomeSections.module.css"
 import Content from "@/app/components/headings/Content";
