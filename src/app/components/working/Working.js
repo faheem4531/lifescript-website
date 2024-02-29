@@ -29,7 +29,7 @@ const Working = () => {
   ]
 
   return (
-    <Box sx={{ padding: '200px 25px', bgcolor: "#30422E" }}
+    <Box sx={{ padding: '200px 25px 220px' }}
       className={styles.workingBox}
     >
       <PrimaryHeading showStyle={true} heading=" How it works" color="#F3ECDA" />

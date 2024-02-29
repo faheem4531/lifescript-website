@@ -1,4 +1,5 @@
 .workingBox {
-  /* background-image: url(../../_assets/pngs/stone-bg.png); */
-
+  background-image: url(../../_assets/pngs/bg-top-bottom.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
