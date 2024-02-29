@@ -1,10 +1,13 @@
 import Button from "@/app/components/button/Button";
 import { Box, Typography } from "@mui/material";
 import Pen from "@/app/_assets/svgs/writing-pen.svg"
+import Book from "@/app/_assets/pngs/hero-book.png"
+import Image from "next/image";
+import styles from "./HomeSections.module.css"
 
 const Introduction = () => {
   return (
-    <Box sx={{ margin: "90px 0 0 75px" }}>
+    <Box sx={{ margin: "90px 0 0 75px", position: "relative" }}>
       <Box sx={{ width: '55%' }}>
         <Typography
           sx={{ fontSize: '60px', lineHeight: '70px' }}
@@ -25,6 +28,7 @@ const Introduction = () => {
         >No credit card required
         </Typography>
       </Box>
+      <Image src={Book} alt="book" className={styles.bookImg} />
     </Box>
   )
 }
