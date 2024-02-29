@@ -6,6 +6,7 @@ import Suggestion from "./sections/Suggestion";
 import StoryTelling from "./sections/StoryTelling";
 import Reviews from "./sections/Reviews";
 import Experience from "@/app/components/experience/Experience";
+import GifTab from "./sections/GifTab";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Introduction />
       <Working />
       <Suggestion />
+      <GifTab />
       <StoryTelling />
       <Reviews />
       <Experience />

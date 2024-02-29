@@ -20,3 +20,11 @@
   width: 475px;
   height: 300px;
 }
+
+/* GifTab  */
+
+.gifTabBox {
+  background-image: url(../../../_assets//pngs/gifi-tab.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
