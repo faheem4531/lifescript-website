@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 import Working from "@/app/components/working/Working";
 import Introduction from "./sections/Introduction";
 import Suggestion from "./sections/Suggestion";
+import StoryTelling from "./sections/StoryTelling";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Introduction />
       <Working />
       <Suggestion />
+      <StoryTelling />
     </Box>
   )
 }

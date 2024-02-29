@@ -32,7 +32,7 @@ const Working = () => {
     <Box sx={{ padding: '200px 25px', bgcolor: "#30422E" }}
       className={styles.workingBox}
     >
-      <PrimaryHeading showStyle={true} heading=" How it works" />
+      <PrimaryHeading showStyle={true} heading=" How it works" color="#F3ECDA" />
 
       <Box sx={{ marginTop: "150px", display: "flex", columnGap: "17px" }}>
 
