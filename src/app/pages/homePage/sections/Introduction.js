@@ -1,14 +1,18 @@
 'use client'
 
-import Button from "@/app/components/button/Button";
+import { useEffect } from "react";
 import { Box, Typography } from "@mui/material";
+import Button from "@/app/components/button/Button";
 import Pen from "@/app/_assets/svgs/writing-pen.svg"
 import Book from "@/app/_assets/pngs/hero-book.png"
 import Image from "next/image";
 import styles from "./HomeSections.module.css"
 import Typed from "typed.js";
-import { useEffect } from "react";
 
+import Image1 from "@/app/_assets/pngs/hero-1.png"
+import Image2 from "@/app/_assets/pngs/hero-2.png"
+import Image3 from "@/app/_assets/pngs/hero-3.png"
+import Image4 from "@/app/_assets/pngs/hero-4.png"
 
 const Introduction = () => {
 
@@ -34,7 +38,7 @@ const Introduction = () => {
   }, []);
 
   return (
-    <Box sx={{ margin: "90px 0 0 75px", position: "relative" }}>
+    <Box sx={{ padding: "90px 0 0 75px", position: "relative", bgcolor: "" }}>
       <Box sx={{ width: '55%' }}>
         <Typography
           sx={{ fontSize: '60px', lineHeight: '70px' }}
@@ -55,6 +59,11 @@ const Introduction = () => {
         >No credit card required
         </Typography>
       </Box>
+
+      <Image src={Image1} alt="image" className={styles.image1} />
+      <Image src={Image2} alt="image" className={styles.image2} />
+      <Image src={Image3} alt="image" className={styles.image3} />
+      <Image src={Image4} alt="image" className={styles.image4} />
       <Image src={Book} alt="book" className={styles.bookImg} />
     </Box>
   )
