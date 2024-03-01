@@ -1,6 +1,7 @@
 import PrimaryHeading from "@/app/components/headings/PrimaryHeading"
 import { Box, Typography, colors } from "@mui/material";
 import styles from "./HomeSections.module.css"
+import Marquee from "react-fast-marquee";
 
 import Image from "next/image";
 import Client1 from "@/app/_assets/pngs/client-1.png"
@@ -45,16 +46,20 @@ const Testimonial = () => {
       </Typography>
 
       <Box sx={{
-        display: "flex", overflowX: "scroll", columnGap: "35px", padding: "0 100px 40px ", scrollbarWidth: "none"
+        display: "flex", columnGap: "35px", padding: "0 0 40px ",
       }}
       >
-        {Client.map((item, index) => <ReviewCard
-          key={index}
-          profile={item.profile}
-          name={item.name}
-          designation={item.designation}
-          details={item.details}
-        />)}
+        <Marquee
+          pauseOnHover={true}
+        >
+          {Client.map((item, index) => <ReviewCard
+            key={index}
+            profile={item.profile}
+            name={item.name}
+            designation={item.designation}
+            details={item.details}
+          />)}
+        </Marquee>
       </Box>
     </Box >
   )
@@ -69,7 +74,9 @@ function ReviewCard({ profile, name, designation, details }) {
       borderRadius: "4px",
       padding: "25px 32px 35px 40px",
       minWidth: "380px",
-      bgcolor: "#F4F4F4"
+      height: "420px",
+      bgcolor: "#F4F4F4",
+      marginRight: "38px"
     }}>
       <Box sx={{ paddingBottom: "15px", display: 'flex', columnGap: "15px", alignItems: "center", fontSize: "20px", borderBottom: "1px solid #BFC4B5" }}>
         <Image
@@ -82,7 +89,7 @@ function ReviewCard({ profile, name, designation, details }) {
           <Typography sx={{ color: "#BFC4B5" }}>{designation}</Typography>
         </Box>
       </Box>
-      <Typography sx={{ padding: "20px 20px 0 10px", lineHeight: "26px", fontSize: "16px" }}>
+      <Typography sx={{ padding: "20px 20px 0 10px", lineHeight: "26px", fontSize: "16px", maxWidth: "300px" }}>
         &quot;{details}&quot;
       </Typography>
     </Box >
