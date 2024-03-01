@@ -7,6 +7,7 @@ import StoryTelling from "./sections/StoryTelling";
 import Reviews from "./sections/Reviews";
 import Experience from "@/app/components/experience/Experience";
 import GifTab from "./sections/GifTab";
+import Pricing from "@/app/components/pricing/Pricing";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,8 @@ const HomePage = () => {
       <StoryTelling />
       <Reviews />
       <Experience />
+      <Pricing />
+
     </Box>
   )
 }

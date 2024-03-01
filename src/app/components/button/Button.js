@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-const Button = ({ title, onClick, img1, img2, width, height, backgroundColor }) => {
+const Button = ({ title, onClick, img1, img2, width, height, backgroundColor, fontSize, borderRadius, }) => {
 
   const styles = {
-    borderRadius: '2px',
+    borderRadius: borderRadius || '2px',
     backgroundColor: '#E1683B' || backgroundColor,
     color: "#ffffff",
     fontWeight: 500,
@@ -13,7 +13,8 @@ const Button = ({ title, onClick, img1, img2, width, height, backgroundColor }) 
     alignItems: 'center',
     columnGap: '10px',
     width: width,
-    height: height
+    height: height,
+    fontSize: fontSize,
   };
 
   return <button style={styles} onClick={onClick}>

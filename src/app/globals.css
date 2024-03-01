@@ -39,3 +39,7 @@ summary::-webkit-details-marker {
 summary {
   list-style: none;
 }
+
+button {
+  cursor: pointer;
+}
