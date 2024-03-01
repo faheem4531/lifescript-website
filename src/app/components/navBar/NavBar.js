@@ -29,7 +29,7 @@ const NavBar = () => {
 
         <Box sx={{ paddingBottom: '10px' }}>
           <Button
-            title='Sing Up'
+            title='Sign Up'
             width='140px'
             height='45px'
             img2={NextIcon}

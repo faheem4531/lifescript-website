@@ -38,7 +38,7 @@ const Introduction = () => {
   }, []);
 
   return (
-    <Box sx={{ padding: "90px 0 0 75px", position: "relative", bgcolor: "" }}>
+    <Box sx={{ padding: "90px 0 0 75px", position: "relative" }}>
       <Box sx={{ width: '55%' }}>
         <Typography
           sx={{ fontSize: '60px', lineHeight: '70px' }}
