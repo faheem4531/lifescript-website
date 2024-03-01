@@ -25,3 +25,14 @@
   right: -50px;
   top: -50px;
 }
+
+/* Pricing Cards  */
+.pricingCard:hover {
+  background-color: #30422E;
+  color: #F4F4F4;
+  transition: all .3s ease;
+}
+
+.price :hover {
+  color: #F4F4F4;
+}

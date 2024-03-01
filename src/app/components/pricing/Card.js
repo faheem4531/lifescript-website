@@ -72,9 +72,15 @@ const PricingCard = ({ price, category }) => {
       width: "405px"
     }}
       backgroundColor={"#F4F4F4"}
+      className={styles.pricingCard}
     >
       <Box sx={{ padding: "39px 45px 10px" }}>
-        <Box sx={{ borderRadius: "4px", backgroundColor: "#E7E7E7", padding: "4px 8px", display: "inline" }}>{category}</Box>
+        <Box sx={{
+          borderRadius: "4px", backgroundColor: "#E7E7E7", padding: "4px 8px", display: "inline", color: "#3E4F3C"
+        }}
+        >
+          {category}
+        </Box>
         {category == 'Standard' && <Box sx={{
           borderRadius: "4px",
           backgroundColor: "#E1683B",
@@ -82,9 +88,18 @@ const PricingCard = ({ price, category }) => {
           color: "#F4F4F4",
           marginLeft: "6px",
           display: "inline"
-        }}>Popular
+        }}>
+          Popular
         </Box>}
-        <Box sx={{ fontSize: "60px", fontWeight: "800", borderBottom: "1px solid #BFC4B5", padding: "10px 0", marginBottom: "34px" }} color={" #30422E"}>
+        <Box sx={{
+          fontSize: "60px",
+          fontWeight: "800",
+          borderBottom: "1px solid #BFC4B5",
+          padding: "10px 0",
+          marginBottom: "34px"
+        }}
+          className={styles.price}
+        >
           {price}
           <Typography sx={{ color: "#BFC4B5", fontSize: "12px", display: "inline" }}>
             / year
