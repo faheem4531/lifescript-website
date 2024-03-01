@@ -9,6 +9,7 @@ import Experience from "@/app/components/experience/Experience";
 import GifTab from "./sections/GifTab";
 import Pricing from "@/app/components/pricing/Pricing";
 import Footer from "@/app/components/footer/Footer";
+import Testimonial from "./sections/Testimonial";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
       <Reviews />
       <Experience />
       <Pricing />
+      <Testimonial />
       <Footer />
     </Box>
   )
