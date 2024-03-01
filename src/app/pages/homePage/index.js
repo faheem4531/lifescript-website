@@ -8,6 +8,7 @@ import Reviews from "./sections/Reviews";
 import Experience from "@/app/components/experience/Experience";
 import GifTab from "./sections/GifTab";
 import Pricing from "@/app/components/pricing/Pricing";
+import Footer from "@/app/components/footer/Footer";
 
 const HomePage = () => {
   return (
@@ -21,7 +22,7 @@ const HomePage = () => {
       <Reviews />
       <Experience />
       <Pricing />
-
+      <Footer />
     </Box>
   )
 }
