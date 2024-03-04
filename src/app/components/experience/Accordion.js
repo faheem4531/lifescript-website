@@ -43,7 +43,6 @@ export default function CustomizedAccordions() {
     <MuiAccordion disableGutters elevation={0} square {...props} />
   ))(({ theme, open }) => ({
     borderLeft: open ? '3px solid #E1683B' : '2px solid #3E4F3C',
-    // color: open ? '#3E4F3C' : 'rgba(0, 0, 0, .2)',
 
     '&:not(:last-child)': {
       borderBottom: 0,

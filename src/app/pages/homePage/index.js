@@ -12,6 +12,7 @@ import Footer from "@/app/components/footer/Footer";
 import Testimonial from "./sections/Testimonial";
 import ContactFooter from "@/app/components/footer/ContactFooter";
 import OurBooks from "./sections/OurBooks";
+import GotQuestions from "@/app/components/questions/GotQuestions";
 
 const HomePage = () => {
   return (
@@ -27,6 +28,7 @@ const HomePage = () => {
       <OurBooks />
       <Pricing />
       <Testimonial />
+      <GotQuestions />
       <ContactFooter />
       <Footer />
     </Box>

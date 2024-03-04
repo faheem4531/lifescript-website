@@ -59,3 +59,9 @@
  .cardsMain:hover:nth-last-child(1){
 
  }
+
+ /* Questions  */
+ .qsBox{
+background-color: red !important;
+margin-bottom: 1px solid red;
+ }
