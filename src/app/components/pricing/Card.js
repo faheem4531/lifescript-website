@@ -77,7 +77,7 @@ const PricingCard = ({ price, category, card }) => {
       // className={card == '2' ? styles.midCard : styles.sideCards}
       className={card == '2' ? styles.midCard : card == "1" ? styles.sideCards1 : styles.sideCards}
     >
-      <Box sx={{ padding: "39px 45px 10px" }}>
+      <Box sx={{ padding: "39px 45px 85px" }}>
         <Box sx={{
           borderRadius: "4px", backgroundColor: "#E7E7E7", padding: "4px 8px", display: "inline", color: "#3E4F3C"
         }}
@@ -159,13 +159,12 @@ const PricingCard = ({ price, category, card }) => {
         }
       </Box>
       <Box sx={{ position: "absolute", bottom: "0", left: "0", right: "0" }}>
-
         <Button
           title='Get Started'
           width='100%'
           height='75px'
           fontSize="24px"
-          borderRadius="0px 0px 10px 10px"
+          borderRadius="0px 0px 8px 8px"
           img2={NextIcon}
         />
       </Box>

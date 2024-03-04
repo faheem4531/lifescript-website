@@ -11,6 +11,7 @@ import Pricing from "@/app/components/pricing/Pricing";
 import Footer from "@/app/components/footer/Footer";
 import Testimonial from "./sections/Testimonial";
 import ContactFooter from "@/app/components/footer/ContactFooter";
+import OurBooks from "./sections/OurBooks";
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
       <StoryTelling />
       <Reviews />
       <Experience />
+      <OurBooks />
       <Pricing />
       <Testimonial />
       <ContactFooter />

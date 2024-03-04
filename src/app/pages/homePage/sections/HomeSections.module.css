@@ -63,3 +63,13 @@
   width: 75px;
   height: 75px;
 }
+
+/* Our Books  */
+.bookBox{
+  background-image: url(../../../_assets/pngs/bg-books.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.book{
+  background: transparent;
+}
