@@ -7,7 +7,7 @@ import Check from "@/app/_assets/svgs/check.svg"
 import Lock from "@/app/_assets/svgs/lock.svg"
 import NextIcon from '@/app/_assets/svgs/next.svg'
 
-const PricingCard = ({ price, category }) => {
+const PricingCard = ({ price, category, card }) => {
   const CheckArray = [
     {
       standardStatus: true,
@@ -71,8 +71,10 @@ const PricingCard = ({ price, category }) => {
       borderRadius: "8px",
       width: "405px"
     }}
-      backgroundColor={"#F4F4F4"}
-      className={styles.pricingCard}
+      backgroundColor={card == "2" ? "#30422E" : "#F4F4F4"}
+      color={card == "2" && "#f4f4f4"}
+      // className={card == '2' ? styles.midCard : styles.sideCards}
+      className={card == '2' ? styles.midCard : card == "1" ? styles.sideCards1 : styles.sideCards}
     >
       <Box sx={{ padding: "39px 45px 10px" }}>
         <Box sx={{

@@ -34,7 +34,7 @@ const Working = () => {
     >
       <PrimaryHeading showStyle={true} heading=" How it works" color="#F3ECDA" />
 
-      <Box sx={{ marginTop: "150px", display: "flex", columnGap: "17px" }}>
+      <Box sx={{ marginTop: "150px", display: "flex", columnGap: "17px", justifyContent: "center" }}>
 
         {pointsArray.map((item, index) => <Points
           key={index}
