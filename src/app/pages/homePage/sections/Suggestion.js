@@ -41,7 +41,7 @@ const Suggestion = () => {
         </Typography>
         <Image src={FlowerLine} alt="logo" className={styles.fullStyle} />
       </Box >
-      <Box sx={{ margin: "160px 85px 0 105px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+      <Box sx={{ margin: "160px 85px 0 105px", display: "flex", justifyContent: "center", alignItems: "center", columnGap: "100px" }}>
         {/* left Section  */}
         <Box sx={{ bgcolor: "", display: "flex", alignItems: "center " }}>
           <Image src={ListPoints} alt="points" />

@@ -16,14 +16,8 @@ const Experience = () => {
         <Image src={FlowerLine} alt="logo" />
       </Box>
 
-      <Box sx={{ margin: "220px 60px 240px 130px", display: "flex", justifyContent: "space-between", alignItems: "center  " }}>
-        {/* <Box sx={{ bgcolor: "red", maxHeight: "460px" }}> */}
+      <Box sx={{ margin: "220px 60px 240px 130px", display: "flex", justifyContent: "center", columnGap: "140px", alignItems: "center" }}>
         <CustomizedAccordions />
-        {/* </Box> */}
-        {/* <Box sx={{ position: "relative" }}>
-          <Image src={Narrative} alt="image" className={styles.gif} />
-          <Image src={Bandage} alt="image" className={styles.bandage} />
-        </Box> */}
       </Box>
     </Box >
   )
