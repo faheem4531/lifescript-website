@@ -7,7 +7,8 @@ import Check from "@/app/_assets/svgs/check.svg"
 import Lock from "@/app/_assets/svgs/lock.svg"
 import NextIcon from '@/app/_assets/svgs/next.svg'
 
-const PricingCard = ({ price, category, card }) => {
+const PricingCard = ({ price, category, card, id, handleHover }) => {
+
   const CheckArray = [
     {
       standardStatus: true,
@@ -66,6 +67,7 @@ const PricingCard = ({ price, category, card }) => {
     },
 
   ]
+
   return (
     <Box sx={{
       borderRadius: "8px",
@@ -74,8 +76,8 @@ const PricingCard = ({ price, category, card }) => {
     }}
       backgroundColor={card == "2" ? "#30422E" : "#F4F4F4"}
       color={card == "2" && "#f4f4f4"}
-      // className={card == '2' ? styles.midCard : styles.sideCards}
-      className={card == '2' ? styles.midCard : card == "1" ? styles.sideCards1 : styles.sideCards}
+      id={id}
+      onMouseOver={() => handleHover(id)}
     >
       <Box sx={{ padding: "39px 45px 85px" }}>
         <Box sx={{
@@ -173,3 +175,4 @@ const PricingCard = ({ price, category, card }) => {
 }
 
 export default PricingCard;
+// className={card == '2' ? styles.midCard : card == "1" ? styles.sideCards1 : styles.sideCards}

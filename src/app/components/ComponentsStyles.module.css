@@ -34,12 +34,19 @@
 }
 
 /* Pricing Cards  */
-.midCard:hover {
+.midCard {
   background-color: #F4F4F4;
   color: #30422E;
   transition: all .3s ease;
 }
-.sideCards:hover, .sideCards1:hover {
+
+.sideCard {
+  background-color: #30422E;
+  color: #F4F4F4;
+  transition: all .3s ease;
+}
+
+/* .sideCards:hover, .sideCards1:hover {
   background-color: #30422E;
   color: #F4F4F4;
   transition: all .3s ease;
@@ -47,21 +54,4 @@
 
 .price :hover {
   color: #F4F4F4;
-}
-/* 
-.sideCards1:hover + .midCard{
-  background-color: #F4F4F4;
-  color: #30422E;
-  transition: all .3s ease;
-}
- */
-
- .cardsMain:hover:nth-last-child(1){
-
- }
-
- /* Questions  */
- .qsBox{
-background-color: red !important;
-margin-bottom: 1px solid red;
- }
+} */

@@ -1,3 +1,4 @@
+'use client'
 import { Box, Typography } from "@mui/material";
 import PricingCard from "./Card";
 import styles from "../ComponentsStyles.module.css"
@@ -24,6 +25,28 @@ const Pricing = () => {
       card: "3"
     },
   ]
+  function handleHover(id) {
+
+    // if (id == 'basic') {
+    //   const basicCard = document.getElementById('basic')
+    //   basicCard.classList.remove("sideCard");
+    // }
+    // if (id == 'standard') {
+    //   const standardCard = document.getElementById('standard')
+    //   standardCard.classList.remove("sideCard");
+    // }
+    // if (id == 'primium') {
+    //   const primiumCard = document.getElementById('primium')
+    //   primiumCard.classList.remove("sideCard");
+    // }
+
+    // const hoveredCard = document.getElementById(id)
+    // hoveredCard.classList.add("midCard");
+
+    // console.log(hoveredCard.classList, 'basic')
+    // console.log(standardCard.classList, 'standard')
+    // console.log(primiumCard.classList, 'primiumCard')
+  }
 
   return (
     <Box sx={{
@@ -43,6 +66,8 @@ const Pricing = () => {
           category={item.category}
           price={item.price}
           card={item.card}
+          id={item.id}
+          handleHover={handleHover}
         />)}
       </Box>
       <Typography sx={{ marginTop: "20px", fontSize: "20px", fontWeight: 900, color: "#495845", textAlign: "center" }}>30 days money back guarantee </Typography>
