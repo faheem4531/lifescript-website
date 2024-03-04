@@ -69,7 +69,8 @@ const PricingCard = ({ price, category, card }) => {
   return (
     <Box sx={{
       borderRadius: "8px",
-      width: "405px"
+      width: "405px",
+      position: "relative"
     }}
       backgroundColor={card == "2" ? "#30422E" : "#F4F4F4"}
       color={card == "2" && "#f4f4f4"}
@@ -157,14 +158,17 @@ const PricingCard = ({ price, category, card }) => {
           </Box>
         }
       </Box>
-      <Button
-        title='Get Started'
-        width='100%'
-        height='75px'
-        fontSize="24px"
-        borderRadius="0px 0px 10px 10px"
-        img2={NextIcon}
-      />
+      <Box sx={{ position: "absolute", bottom: "0", left: "0", right: "0" }}>
+
+        <Button
+          title='Get Started'
+          width='100%'
+          height='75px'
+          fontSize="24px"
+          borderRadius="0px 0px 10px 10px"
+          img2={NextIcon}
+        />
+      </Box>
     </Box >
   )
 }
