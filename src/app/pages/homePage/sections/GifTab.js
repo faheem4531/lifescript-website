@@ -21,7 +21,7 @@ const GifTab = () => {
       <Box sx={{ display: "flex", alignItems: "center" }}>
 
         <Typography sx={{
-          fontSize: "32px", fontWeight: 500, width: "80%"
+          fontSize: "32px", fontWeight: 500, width: "80%", fontFamily: "Besley"
         }}>
           Surprise your loved one with Lifescript and transform their memories into a keepsake book.
         </Typography>

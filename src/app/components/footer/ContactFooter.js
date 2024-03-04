@@ -12,7 +12,7 @@ const ContactFooter = () => {
       sx={{ padding: "70px 0 50px", display: "flex", flexDirection: "column", alignItems: "center", color: "#F3ECDA", bgcolor: "red" }}
       className={styles.contactFooterBox}
     >
-      <Typography sx={{ fontSize: "54px", fontWeight: 500 }}>Missed the moment? set a reminder!</Typography>
+      <Typography sx={{ fontSize: "54px", fontWeight: 500, fontFamily: "Besley" }}>Missed the moment? set a reminder!</Typography>
       <Typography sx={{ fontSize: "16px", fontWeight: 500, marginTop: "30px" }}>Complete the form, and we&apos;ll send you a reminder as your loved one&apos;s special day approaches.</Typography>
 
       <Box sx={{ display: "flex", columnGap: "8px", margin: "55px 0 40px", width: "100%", justifyContent: "center" }}>

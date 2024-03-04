@@ -76,7 +76,7 @@ const GotQuestions = () => {
     <Box
       sx={{ padding: "250px 160px  200px 110px" }}
     >
-      <Typography sx={{ fontSize: "52px", fontWeight: 500 }}>Got Questions?</Typography>
+      <Typography sx={{ fontSize: "52px", fontWeight: 500, fontFamily: "Besley" }}>Got Questions?</Typography>
       <Typography sx={{ fontSize: "20px", marginTop: "10px" }}>Got Questions? We&apos;ve Got Answers!</Typography>
       <Box sx={{ margin: "85px 0 0", display: "flex", columnGap: "10%" }}>
         <Box sx={{ width: "45%" }}>

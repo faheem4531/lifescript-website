@@ -15,7 +15,8 @@ const Points = ({ no, title, discription }) => {
       <Typography sx={{
         color: "#E1683B",
         fontSize: "20px",
-        fontWeight: 500
+        fontWeight: 500,
+        fontFamily: "Besley"
       }}>
         {no}
       </Typography>
@@ -25,7 +26,8 @@ const Points = ({ no, title, discription }) => {
         fontSize: "28px",
         fontWeight: 500,
         lineHeight: "40px",
-        height: "130px"
+        height: "130px",
+        fontFamily: "Besley"
       }}>
         {title}
       </Typography>

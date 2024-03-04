@@ -53,7 +53,7 @@ const Pricing = () => {
       margin: ' 170px 95px',
     }}>
       <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", marginBottom: "60px" }}>
-        <Typography sx={{ fontSize: "52px", fontWeight: 500 }}>Our Pricing Plan</Typography>
+        <Typography sx={{ fontSize: "52px", fontWeight: 500, fontFamily: "Besley" }}>Our Pricing Plan</Typography>
         <Box sx={{ fontSize: "24px", width: "60%" }}>
           Each package comes with a one-year Lifescript subscription,
           a premium full-color hardcover book, and <Typography sx={{ fontWeight: 900, display: "inline" }}>free shipping.</Typography>
