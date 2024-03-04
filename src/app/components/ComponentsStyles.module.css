@@ -26,6 +26,14 @@
   top: -50px;
 }
 
+
+/* ContactFooter  */
+.contactFooterBox{
+  background-image: url(../_assets/pngs/bg-footer.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 /* Pricing Cards  */
 .midCard:hover {
   background-color: #F4F4F4;

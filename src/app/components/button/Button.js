@@ -4,7 +4,7 @@ const Button = ({ title, onClick, img1, img2, width, height, backgroundColor, fo
 
   const styles = {
     borderRadius: borderRadius || '2px',
-    backgroundColor: '#E1683B' || backgroundColor,
+    backgroundColor: backgroundColor || '#E1683B',
     color: "#ffffff",
     fontWeight: 500,
     border: 'none',

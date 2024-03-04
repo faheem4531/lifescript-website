@@ -43,3 +43,7 @@ summary {
 button {
   cursor: pointer;
 }
+
+.input:focus{
+  border: none;
+}

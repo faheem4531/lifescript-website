@@ -10,6 +10,7 @@ import GifTab from "./sections/GifTab";
 import Pricing from "@/app/components/pricing/Pricing";
 import Footer from "@/app/components/footer/Footer";
 import Testimonial from "./sections/Testimonial";
+import ContactFooter from "@/app/components/footer/ContactFooter";
 
 const HomePage = () => {
   return (
@@ -24,6 +25,7 @@ const HomePage = () => {
       <Experience />
       <Pricing />
       <Testimonial />
+      <ContactFooter />
       <Footer />
     </Box>
   )
