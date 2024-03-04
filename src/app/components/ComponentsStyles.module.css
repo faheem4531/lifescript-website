@@ -30,8 +30,7 @@
 /* ContactFooter  */
 .contactFooterBox{
   background-image: url(../_assets/pngs/bg-footer.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-size: 100% 120%;
 }
 
 /* Pricing Cards  */
@@ -58,7 +57,5 @@
  */
 
  .cardsMain:hover:nth-last-child(1){
-
-  background-color: red;
 
  }
