@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'myfamily'; 
-  src: url('../../public/avenir/xx.otf') format('opentype');
+  src: url('../../public/avenir/AvenirLTStd-Roman.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
