@@ -15,11 +15,12 @@ import OurBooks from "./sections/OurBooks";
 import GotQuestions from "@/app/components/questions/GotQuestions";
 
 import Shape from "@/app/_assets/svgs/input-shape.svg"
+import Logo from "@/app/_assets/svgs/logo.svg"
 
 const HomePage = () => {
   return (
     <Box>
-      <NavBar />
+      <NavBar logo={Logo} color="#3E4F3C" />
       <Introduction />
       <Working />
       <Suggestion />

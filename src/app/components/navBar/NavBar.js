@@ -1,11 +1,10 @@
 import { Box, Typography } from "@mui/material";
-import Logo from "@/app/_assets/svgs/logo.svg"
 import Image from "next/image";
 import styles from './NavBar.module.css'
 import Button from "../button/Button";
 import NextIcon from '@/app/_assets/svgs/next.svg'
 
-const NavBar = () => {
+const NavBar = ({ color, logo }) => {
   return (
     <Box sx={{
       display: 'flex',
@@ -13,13 +12,14 @@ const NavBar = () => {
       alignItems: 'center',
       padding: '64px 106px 0',
     }}>
-      <Image src={Logo} alt="Logo" className={styles.logo} />
+      <Image src={logo} alt="Logo" className={styles.logo} />
       <Box sx={{
         display: 'flex',
         alignItems: 'center',
         fontSize: '18px',
         fontWeight: 500,
       }}
+        color={color}
       >
         <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }} className={styles.underLine}>Home</Typography>
         <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Features</Typography>
