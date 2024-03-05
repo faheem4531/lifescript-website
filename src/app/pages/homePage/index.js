@@ -16,6 +16,7 @@ import GotQuestions from "@/app/components/questions/GotQuestions";
 
 import Shape from "@/app/_assets/svgs/input-shape.svg"
 import Logo from "@/app/_assets/svgs/logo.svg"
+import Gift from "@/app/_assets/svgs/gift.svg"
 
 const HomePage = () => {
   return (
@@ -24,7 +25,11 @@ const HomePage = () => {
       <Introduction />
       <Working />
       <Suggestion />
-      <GifTab />
+      <GifTab
+        heading="Surprise your loved one with Lifescript and transform their memories into a keepsake book."
+        button="Gift Now!!"
+        icon={Gift}
+      />
       <StoryTelling />
       <Reviews />
       <Experience />
