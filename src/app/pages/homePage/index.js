@@ -14,6 +14,8 @@ import ContactFooter from "@/app/components/footer/ContactFooter";
 import OurBooks from "./sections/OurBooks";
 import GotQuestions from "@/app/components/questions/GotQuestions";
 
+import Shape from "@/app/_assets/svgs/input-shape.svg"
+
 const HomePage = () => {
   return (
     <Box>
@@ -29,7 +31,15 @@ const HomePage = () => {
       <Pricing />
       <Testimonial />
       <GotQuestions />
-      <ContactFooter />
+      <ContactFooter
+        title="Missed the moment? set a reminder!"
+        subTitle="Complete the form, and we'll send you a reminder as your loved one's special day approaches."
+        input1="Your email address"
+        input2="What’s the occasion?"
+        input3="When it’s happening?"
+        button="Remind Me"
+        shape={Shape}
+      />
       <Footer />
     </Box>
   )
