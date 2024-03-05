@@ -26,3 +26,10 @@ color:#E1683B;
 cursor: pointer;
 margin-left: 7px;
 }
+
+/* BlogDetails  */
+.bgImg{
+  position: relative;
+  width: 100vw;
+  z-index: -10;
+}
