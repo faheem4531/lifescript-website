@@ -2,12 +2,13 @@
 
 import { Box } from "@mui/material";
 import FeaturesIntroduction from "./sections/Introduction";
-import NavBar from "@/app/components/navBar/NavBar";
+import FeaturesItems from "./sections/Features";
 
 const Features = () => {
   return (
     <Box>
       <FeaturesIntroduction />
+      <FeaturesItems />
     </Box>
   )
 }

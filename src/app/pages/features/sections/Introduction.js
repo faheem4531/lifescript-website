@@ -9,7 +9,7 @@ import Bg from "@/app/_assets/pngs/bg-feature.png"
 
 const FeaturesIntroduction = () => {
   return (
-    <Box sx={{ height: "720px", position: "relative" }}
+    <Box sx={{ height: "100vh", position: "relative" }}
       className={styles.features}
     >
       <NavBar />
