@@ -1,0 +1,14 @@
+.introBlog{
+  background-image: url(../../../_assets/pngs/bg-blog.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+  object-fit: cover;
+}
+.lineBox{
+  position: relative;
+}
+.line{
+  position: absolute;
+  right:-20px;
+  bottom: -10px;
+}
