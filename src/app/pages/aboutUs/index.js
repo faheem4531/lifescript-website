@@ -6,6 +6,7 @@ import ContactFooter from "@/app/components/footer/ContactFooter";
 import FeaturesIntroduction from "@/app/components/Introduction/Introduction";
 import Mission from "./sections/Mission";
 import Story from "./sections/Stories";
+import Values from "./sections/Values";
 
 const AboutUs = () => {
   return (
@@ -13,6 +14,7 @@ const AboutUs = () => {
       <FeaturesIntroduction heading="Empowering people to create a timeless legacy, resonating across" width="75%" keyWorld=" generations." />
       <Mission />
       <Story />
+      <Values />
       <ContactFooter
         title="Still confused? Ask away!"
         subTitle="Contact us Now!!!"
