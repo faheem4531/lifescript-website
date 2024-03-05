@@ -46,6 +46,24 @@
   transition: all .3s ease;
 }
 
+/* Introduction  */
+
+.features{
+  background-image: url(../_assets/pngs/bg-feature.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+  object-fit: cover;
+}
+
+.lineBox{
+  position: relative;
+}
+
+.line{
+  position: absolute;
+  right:-20px;
+  bottom: -10px;
+}
 /* .sideCards:hover, .sideCards1:hover {
   background-color: #30422E;
   color: #F4F4F4;

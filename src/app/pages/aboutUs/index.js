@@ -1,20 +1,14 @@
 'use client'
 
 import { Box } from "@mui/material";
-import FeaturesIntroduction from "../../components/Introduction/Introduction";
-import FeaturesItems from "./sections/Features";
 import Footer from "@/app/components/footer/Footer";
 import ContactFooter from "@/app/components/footer/ContactFooter";
+import FeaturesIntroduction from "@/app/components/Introduction/Introduction";
 
-const FeaturesPage = () => {
+const AboutUs = () => {
   return (
     <Box>
-      <FeaturesIntroduction
-        heading="We take care of "
-        keyWorld="everything"
-        subHeading="Crafting your narrative in a book is now faster and simpler than ever."
-      />
-      <FeaturesItems />
+      <FeaturesIntroduction heading="Empowering people to create a timeless legacy, resonating across" width="75%" keyWorld=" generations." />
       <ContactFooter
         title="Still confused? Ask away!"
         subTitle="Contact us Now!!!"
@@ -28,4 +22,4 @@ const FeaturesPage = () => {
   )
 }
 
-export default FeaturesPage;
+export default AboutUs;

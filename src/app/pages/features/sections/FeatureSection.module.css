@@ -1,17 +1,8 @@
-/* Introduction  */
 
-.features{
-  background-image: url(../../../_assets/pngs/bg-feature.png);
-  background-repeat: no-repeat;
-  background-size:100%;
-  object-fit: cover;
-}
 
 /* Features  */
 
 .gifIcon{
-  /* width: 100%; */
-  /* height: 105px; */
   margin-bottom: 10px;
 }
 
