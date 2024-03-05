@@ -81,7 +81,7 @@ const PricingCard = ({ price, category, card, id, handleHover }) => {
     >
       <Box sx={{ padding: "39px 45px 85px" }}>
         <Box sx={{
-          borderRadius: "4px", backgroundColor: "#E7E7E7", padding: "4px 8px", display: "inline", color: "#3E4F3C"
+          borderRadius: "4px", backgroundColor: "#E7E7E7", padding: "4px 8px", display: "inline", color: "#3E4F3C", fontFamily: "myfamily"
         }}
         >
           {category}
@@ -92,7 +92,8 @@ const PricingCard = ({ price, category, card, id, handleHover }) => {
           padding: "4px 8px",
           color: "#F4F4F4",
           marginLeft: "6px",
-          display: "inline"
+          display: "inline",
+          fontFamily: "myfamily"
         }}>
           Popular
         </Box>}
@@ -101,7 +102,8 @@ const PricingCard = ({ price, category, card, id, handleHover }) => {
           fontWeight: "800",
           borderBottom: "1px solid #BFC4B5",
           padding: "10px 0",
-          marginBottom: "34px"
+          marginBottom: "34px",
+          fontFamily: "myfamily"
         }}
           className={styles.price}
         >
@@ -122,7 +124,7 @@ const PricingCard = ({ price, category, card, id, handleHover }) => {
               }}
               key={index}>
               <Image src={item.basicStatus ? Check : Lock} alt="check" />
-              <Typography sx={{ fontSize: "15px" }}>{item.dis}</Typography>
+              <Typography sx={{ fontSize: "15px", fontFamily: "myfamily" }}>{item.dis}</Typography>
             </Box>
             )}
         </Box>
@@ -138,7 +140,7 @@ const PricingCard = ({ price, category, card, id, handleHover }) => {
                 }}
                 key={index}>
                 <Image src={item.standardStatus ? Check : Lock} alt="check" />
-                <Typography sx={{ fontSize: "15px" }}>{item.dis}</Typography>
+                <Typography sx={{ fontSize: "15px", fontFamily: "myfamily" }}>{item.dis}</Typography>
               </Box>
               )}
           </Box>
@@ -154,7 +156,7 @@ const PricingCard = ({ price, category, card, id, handleHover }) => {
                 }}
                 key={index}>
                 <Image src={item.PrimuimStatus ? Check : Lock} alt="check" />
-                <Typography sx={{ fontSize: "15px" }}>{item.dis}</Typography>
+                <Typography sx={{ fontSize: "15px", fontFamily: "myfamily" }}>{item.dis}</Typography>
               </Box>
               )}
           </Box>
@@ -175,4 +177,3 @@ const PricingCard = ({ price, category, card, id, handleHover }) => {
 }
 
 export default PricingCard;
-// className={card == '2' ? styles.midCard : card == "1" ? styles.sideCards1 : styles.sideCards}

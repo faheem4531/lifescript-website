@@ -44,7 +44,7 @@ const Introduction = () => {
           sx={{ fontSize: '60px', lineHeight: '70px', fontFamily: "Besley" }}
         >An Autobiography Book <br /> The Best Way To <span className="multiple-text" style={color}></span> </Typography>
         <Typography
-          sx={{ fontSize: '16px', lineHeight: '24px', fontWeight: 500, margin: '90px 0 30px', width: '70%' }}
+          sx={{ fontSize: '16px', lineHeight: '24px', fontWeight: 500, margin: '90px 0 30px', width: '70%', fontFamily: "myfamily" }}
         >An easy-to-use platform enabling people to preserve their memories, rediscover their roots, and
           create a deeper connection with themselves and their families.
         </Typography>
@@ -55,7 +55,7 @@ const Introduction = () => {
           img1={Pen}
         />
         <Typography
-          sx={{ fontSize: '11px', lineHeight: '24px', fontWeight: 500, margin: '10px 0 150px' }}
+          sx={{ fontSize: '11px', lineHeight: '24px', fontWeight: 500, margin: '10px 0 150px', fontFamily: "myfamily" }}
         >No credit card required
         </Typography>
       </Box>

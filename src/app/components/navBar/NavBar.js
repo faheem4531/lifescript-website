@@ -21,11 +21,11 @@ const NavBar = () => {
         fontWeight: 500,
       }}
       >
-        <Typography sx={{ padding: ' 0 20px 10px' }} className={styles.underLine}>Home</Typography>
-        <Typography sx={{ padding: ' 0 20px 10px' }}>Features</Typography>
-        <Typography sx={{ padding: ' 0 20px 10px' }}>Blog</Typography>
-        <Typography sx={{ padding: ' 0 20px 10px' }}>About Us</Typography>
-        <Typography sx={{ padding: ' 0 20px 10px' }}>FAQ &apos; s</Typography>
+        <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }} className={styles.underLine}>Home</Typography>
+        <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Features</Typography>
+        <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Blog</Typography>
+        <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>About Us</Typography>
+        <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>FAQ &apos; s</Typography>
 
         <Box sx={{ paddingBottom: '10px' }}>
           <Button

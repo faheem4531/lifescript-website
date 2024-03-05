@@ -6,7 +6,7 @@ export function Content({ heading, subHeading, marginB, subWidth }) {
       <Typography sx={{ fontSize: "32px", fontWeight: 500, marginBottom: "20px", fontFamily: "Besley" }}>
         {heading}
       </Typography>
-      <Typography sx={{ fontSize: "16px" }} width={subWidth}>
+      <Typography sx={{ fontSize: "16px", fontFamily: "myfamily" }} width={subWidth}>
         {subHeading}
       </Typography>
     </Box>

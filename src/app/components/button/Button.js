@@ -15,6 +15,7 @@ const Button = ({ title, onClick, img1, img2, width, height, backgroundColor, fo
     width: width,
     height: height,
     fontSize: fontSize,
+    fontFamily: "myfamily"
   };
 
   return <button style={styles} onClick={onClick}>

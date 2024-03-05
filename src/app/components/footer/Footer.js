@@ -20,7 +20,7 @@ const Footer = () => {
       }}>
         <Box>
           <Image src={Logo} alt="logo" />
-          <Typography sx={{ width: "210px", fontSize: "16px", margin: "23px 0" }}>Echoes of the past, blueprint for the future.</Typography>
+          <Typography sx={{ width: "210px", fontSize: "16px", margin: "23px 0", fontFamily: "myfamily" }}>Echoes of the past, blueprint for the future.</Typography>
           <Box sx={{
             display: "flex",
             columnGap: "13px",
@@ -35,28 +35,28 @@ const Footer = () => {
 
         <Box sx={{ display: "flex", columnGap: "45px" }}>
           <Box>
-            <Typography sx={{ fontWeight: 800, marginBottom: "19px" }}>Company</Typography>
-            <Typography sx={{ fontSize: "16px", marginBottom: "19px" }}>About</Typography>
-            <Typography sx={{ fontSize: "16px" }}>Features</Typography>
+            <Typography sx={{ fontWeight: 800, marginBottom: "19px", fontFamily: "myfamily" }}>Company</Typography>
+            <Typography sx={{ fontSize: "16px", marginBottom: "19px", fontFamily: "myfamily" }}>About</Typography>
+            <Typography sx={{ fontSize: "16px", fontFamily: "myfamily" }}>Features</Typography>
           </Box>
           <Box>
-            <Typography sx={{ fontWeight: 800, marginBottom: "19px" }}>Help</Typography>
-            <Typography sx={{ fontSize: "16px", marginBottom: "19px" }}>Customer Suport</Typography>
-            <Typography sx={{ fontSize: "16px", marginBottom: "19px" }}>Delivery Details</Typography>
-            <Typography sx={{ fontSize: "16px", marginBottom: "19px" }}>Terms & Conditions</Typography>
-            <Typography sx={{ fontSize: "16px" }}>Privacy Policy</Typography>
+            <Typography sx={{ fontWeight: 800, marginBottom: "19px", fontFamily: "myfamily" }}>Help</Typography>
+            <Typography sx={{ fontSize: "16px", marginBottom: "19px", fontFamily: "myfamily" }}>Customer Suport</Typography>
+            <Typography sx={{ fontSize: "16px", marginBottom: "19px", fontFamily: "myfamily" }}>Delivery Details</Typography>
+            <Typography sx={{ fontSize: "16px", marginBottom: "19px", fontFamily: "myfamily" }}>Terms & Conditions</Typography>
+            <Typography sx={{ fontSize: "16px", fontFamily: "myfamily" }}>Privacy Policy</Typography>
           </Box>
           <Box>
-            <Typography sx={{ fontWeight: 800, marginBottom: "19px" }}>Resources</Typography>
-            <Typography sx={{ fontSize: "16px", marginBottom: "19px" }}>Free ebooks</Typography>
-            <Typography sx={{ fontSize: "16px", marginBottom: "19px" }}>Development Tutorial</Typography>
-            <Typography sx={{ fontSize: "16px", marginBottom: "19px" }}>How to -Blog</Typography>
-            <Typography sx={{ fontSize: "16px" }}>Youtube Playlist</Typography>
+            <Typography sx={{ fontWeight: 800, marginBottom: "19px", fontFamily: "myfamily" }}>Resources</Typography>
+            <Typography sx={{ fontSize: "16px", marginBottom: "19px", fontFamily: "myfamily" }}>Free ebooks</Typography>
+            <Typography sx={{ fontSize: "16px", marginBottom: "19px", fontFamily: "myfamily" }}>Development Tutorial</Typography>
+            <Typography sx={{ fontSize: "16px", marginBottom: "19px", fontFamily: "myfamily" }}>How to -Blog</Typography>
+            <Typography sx={{ fontSize: "16px", fontFamily: "myfamily" }}>Youtube Playlist</Typography>
           </Box>
         </Box>
       </Box >
 
-      <Box sx={{ textAlign: "center", padding: "23px 0" }}>© Copyright  2024 LifeScript</Box>
+      <Box sx={{ textAlign: "center", padding: "23px 0", fontFamily: "myfamily" }}>© Copyright  2024 LifeScript</Box>
     </Box>
   )
 }

@@ -78,14 +78,15 @@ export default function CustomizedAccordions() {
       <Box sx={{ maxHeight: "460px" }}>
         <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} open={expanded === 'panel1'}>
           <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-            <Typography sx={{ fontSize: "32px", fontWeight: 500 }}>1. Narrative Fusion</Typography>
+            <Typography sx={{ fontSize: "32px", fontWeight: 500, fontFamily: "myfamily" }}>1. Narrative Fusion</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography sx={{
               color: "#494949",
               fontSize: "16px",
               padding: "5px 0 20px 45px",
-              maxWidth: "370px"
+              maxWidth: "370px",
+              fontFamily: "myfamily"
             }}>
               Turn your cherished memories into beautifully written chapters with a single click – no writing experience
               needed, especially perfect for seniors.
@@ -94,14 +95,15 @@ export default function CustomizedAccordions() {
         </Accordion>
         <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} open={expanded === 'panel2'}>
           <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-            <Typography sx={{ fontSize: "32px", fontWeight: 500 }}>2. Assisted Editing</Typography>
+            <Typography sx={{ fontSize: "32px", fontWeight: 500, fontFamily: "myfamily" }}>2. Assisted Editing</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography sx={{
               color: "#494949",
               fontSize: "16px",
               padding: "5px 0 20px 35px",
-              maxWidth: "370px"
+              maxWidth: "370px",
+              fontFamily: "myfamily"
             }}>
               Turn your cherished memories into beautifully written chapters with a single click – no writing experience
               needed, especially perfect for seniors.
@@ -110,14 +112,15 @@ export default function CustomizedAccordions() {
         </Accordion>
         <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')} open={expanded === 'panel3'}>
           <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-            <Typography sx={{ fontSize: "32px", fontWeight: 500 }}>3. Voice-to-Text</Typography>
+            <Typography sx={{ fontSize: "32px", fontWeight: 500, fontFamily: "myfamily" }}>3. Voice-to-Text</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography sx={{
               color: "#494949",
               fontSize: "16px",
               padding: "5px 0 20px 35px",
-              maxWidth: "370px"
+              maxWidth: "370px",
+              fontFamily: "myfamily"
             }}>
               Turn your cherished memories into beautifully written chapters with a single click – no writing experience
               needed, especially perfect for seniors.
@@ -126,14 +129,15 @@ export default function CustomizedAccordions() {
         </Accordion>
         <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')} open={expanded === 'panel4'}>
           <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-            <Typography sx={{ fontSize: "32px", fontWeight: 500 }}>4. Family Tree</Typography>
+            <Typography sx={{ fontSize: "32px", fontWeight: 500, fontFamily: "myfamily" }}>4. Family Tree</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography sx={{
               color: "#494949",
               fontSize: "16px",
               padding: "5px 0 20px 35px",
-              maxWidth: "370px"
+              maxWidth: "370px",
+              fontFamily: "myfamily"
             }}>
               Turn your cherished memories into beautifully written chapters with a single click – no writing experience
               needed, especially perfect for seniors.
@@ -142,14 +146,15 @@ export default function CustomizedAccordions() {
         </Accordion>
         <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')} open={expanded === 'panel5'}>
           <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-            <Typography sx={{ fontSize: "32px", fontWeight: 500 }}>5. Formatting Feature</Typography>
+            <Typography sx={{ fontSize: "32px", fontWeight: 500, fontFamily: "myfamily" }}>5. Formatting Feature</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography sx={{
               color: "#494949",
               fontSize: "16px",
               padding: "5px 0 20px 35px",
-              maxWidth: "370px"
+              maxWidth: "370px",
+              fontFamily: "myfamily"
             }}>
               Turn your cherished memories into beautifully written chapters with a single click – no writing experience
               needed, especially perfect for seniors.
@@ -158,14 +163,15 @@ export default function CustomizedAccordions() {
         </Accordion>
         <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')} open={expanded === 'panel6'}>
           <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-            <Typography sx={{ fontSize: "32px", fontWeight: 500 }}>6. Auto Photo Improvement</Typography>
+            <Typography sx={{ fontSize: "32px", fontWeight: 500, fontFamily: "myfamily" }}>6. Auto Photo Improvement</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography sx={{
               color: "#494949",
               fontSize: "16px",
               padding: "5px 0 20px 35px",
-              maxWidth: "370px"
+              maxWidth: "370px",
+              fontFamily: "myfamily"
             }}>
               Turn your cherished memories into beautifully written chapters with a single click – no writing experience
               needed, especially perfect for seniors.
