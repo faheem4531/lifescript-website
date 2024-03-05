@@ -4,3 +4,10 @@
   width: 550px;
   height: 720px;
 }
+
+/* Our Values  */
+.valuesBox{
+  background-image: url(../../../_assets/pngs/bg-gift-tag.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
