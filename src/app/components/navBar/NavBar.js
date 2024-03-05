@@ -11,7 +11,7 @@ const NavBar = () => {
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      margin: '64px 106px 0',
+      padding: '64px 106px 0',
     }}>
       <Image src={Logo} alt="Logo" className={styles.logo} />
       <Box sx={{
