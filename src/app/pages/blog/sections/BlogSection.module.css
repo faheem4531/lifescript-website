@@ -4,11 +4,25 @@
   background-size:100%;
   object-fit: cover;
 }
+
 .lineBox{
   position: relative;
 }
+
 .line{
   position: absolute;
   right:-20px;
   bottom: -10px;
+}
+
+.blogImg{
+max-width: 1050px;
+width: 100%;
+margin: 20px 0;
+}
+
+.readMore{
+color:#E1683B;
+cursor: pointer;
+margin-left: 7px;
 }

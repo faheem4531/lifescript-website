@@ -4,11 +4,13 @@ import { Box } from "@mui/material";
 import Footer from "@/app/components/footer/Footer";
 import ContactFooter from "@/app/components/footer/ContactFooter";
 import IntroductionBlog from "./sections/Introduction";
+import Blogs from "./sections/Blog";
 
 const BlogPage = () => {
   return (
     <Box>
-      <IntroductionBlog/>
+      <IntroductionBlog />
+      <Blogs />
       <ContactFooter
         title="Still confused? Ask away!"
         subTitle="Contact us Now!!!"

@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const IntroductionBlog = () => {
   return (
-    <Box className={styles.introBlog} sx={{}}>
+    <Box className={styles.introBlog}>
       <NavBar color="#F3ECDA" logo={Logo} />
       <Box sx={{ margin: "250px 200px 170px", paddingBottom: "35px", borderBottom: "1px solid #E1683B", maxWidth: "1050px" }}>
         <Box sx={{ fontSize: "52px", fontWeight: 500, marginBottom: "30px" }}>Exploring Life Stories: Biography, Autobiography, Memoir {" "}
