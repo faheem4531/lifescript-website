@@ -4,3 +4,8 @@
   background-size:100% 200px;
   object-fit: cover;
 }
+.cardBorder > *:not(:last-child){
+  border-bottom: 1px solid #B9B9A7;
+}
+
+

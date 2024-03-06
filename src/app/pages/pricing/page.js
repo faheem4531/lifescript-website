@@ -9,6 +9,7 @@ import styles from "./sections/Pricing.module.css"
 import Pricing from "@/app/components/pricing/Pricing";
 import Working from "@/app/components/working/Working";
 import Check from "@/app/_assets/svgs/check-square.svg"
+import PricingDetails from "./sections/PricingDetails";
 
 const PricingPage = () => {
   const pointsArray = [
@@ -36,7 +37,7 @@ const PricingPage = () => {
 
       <Pricing />
       <Working data={pointsArray} heading="How we’re different:" subHeading="Lifescript vs Storyworth" />
-
+      <PricingDetails />
       <ContactFooter
         title="Still confused? Ask away!"
         subTitle="Contact us Now!!!"
