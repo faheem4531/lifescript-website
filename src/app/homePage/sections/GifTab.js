@@ -2,6 +2,7 @@ import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 import styles from "./HomeSections.module.css"
 import Button from "@/app/components/button/Button";
+import Hurt from "@/app/_assets/pngs/bg-gift-tag.png"
 
 const GifTab = ({ heading, subHeading, icon, button }) => {
 
@@ -13,11 +14,12 @@ const GifTab = ({ heading, subHeading, icon, button }) => {
       margin: "0 auto 0",
       display: "flex",
       justifyContent: "space-between",
-      padding: "100px 60px 40px 100px"
+      padding: "100px 60px 40px 100px",
+      position: "relative"
     }}
       className={styles.gifTabBox}
     >
-      <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
+      <Box sx={{ display: "flex", alignItems: "center", width: "100%", position: "relative", zIndex: "1" }}>
         <Box sx={{ width: "100%" }}>
 
           <Typography sx={{
@@ -38,6 +40,7 @@ const GifTab = ({ heading, subHeading, icon, button }) => {
         />
 
       </Box>
+      <Image src={Hurt} alt="img" className={styles.bgHurt} />
     </Box >
   )
 }
