@@ -19,11 +19,34 @@ import Logo from "@/app/_assets/svgs/logo.svg"
 import Gift from "@/app/_assets/svgs/gift.svg"
 
 const HomePage = () => {
+
+  const pointsArray = [
+    {
+      no: "01",
+      title: "Answer questions weekly",
+      discription: "Or as often as you like"
+    },
+    {
+      no: "02",
+      title: "Turn answers into a chapter with a click",
+      discription: "No writing experience needed."
+    },
+    {
+      no: "03",
+      title: "Repeat for all chapters",
+      discription: "As many as you like."
+    },
+    {
+      no: "04",
+      title: "Receive a beautiful hardcover book",
+      discription: "With free shipping."
+    }
+  ]
   return (
     <Box>
       <NavBar logo={Logo} color="#3E4F3C" />
       <Introduction />
-      <Working />
+      <Working data={pointsArray} heading=" How it works" />
       <Suggestion />
       <GifTab
         heading="Surprise your loved one with Lifescript and transform their memories into a keepsake book."
