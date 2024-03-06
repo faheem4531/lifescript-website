@@ -3,10 +3,12 @@
 import { Box } from "@mui/material";
 import Footer from "@/app/components/footer/Footer";
 import ContactFooter from "@/app/components/footer/ContactFooter";
+import HeroGifting from "./sections/Introduction";
 
 const GiftingPage = () => {
   return (
     <Box>
+      <HeroGifting />
       <ContactFooter
         title="Still have any questions?"
         subTitle="Contact us Now!!!"

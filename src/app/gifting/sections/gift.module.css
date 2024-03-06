@@ -1,0 +1,11 @@
+/* Gift Introduction  */
+.giftIntro{
+  background-image: url(../../_assets/pngs/bg-feature.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.logo{
+  width: 290px;
+  height: 40px;
+  margin:50px 0 70px;
+}
