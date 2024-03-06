@@ -4,6 +4,7 @@ import { Box, Typography } from "@mui/material";
 import Image from "next/image"
 import Question from "./Question.js"
 import styles from "../ComponentsStyles.module.css"
+import Link from "next/link.js";
 
 const GotQuestions = () => {
 
@@ -102,6 +103,9 @@ const GotQuestions = () => {
           />)}
         </Box>
       </Box>
+      <Link href="/faqs">
+        <Typography sx={{ textAlign: "center", fontSize: "24px", marginTop: "80px" }}>See More</Typography>
+      </Link>
     </Box>
   )
 }
