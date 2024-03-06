@@ -4,12 +4,14 @@ import { Box } from "@mui/material";
 import Footer from "@/app/components/footer/Footer";
 import ContactFooter from "@/app/components/footer/ContactFooter";
 import NavBar from "@/app/components/navBar/NavBar";
-import Logo from "@/app/_assets/svgs/logo-footer.svg"
 import styles from "./sections/Pricing.module.css"
+
+import Logo from "@/app/_assets/svgs/logo-footer.svg"
 import Pricing from "@/app/components/pricing/Pricing";
 import Working from "@/app/components/working/Working";
 import Check from "@/app/_assets/svgs/check-square.svg"
 import PricingDetails from "./sections/PricingDetails";
+import StoryWorthy from "@/app/_assets/svgs/story-worthy-logo.svg"
 
 const PricingPage = () => {
   const pointsArray = [
@@ -31,13 +33,106 @@ const PricingPage = () => {
 
   ]
 
+  const pricingDetails = [
+    {
+      header: "Benefits",
+      bgColor: "#E1683B",
+      data: [
+        "Free trial",
+        "Annual subscription with full-color hardcover book",
+        "No additional cost for gift receiver",
+        "Annual subscription with full-color hardcover book",
+        "Free worldwide Shipping",
+        "Language supported",
+        "Book page limit",
+        "Unlimited photo uploads",
+        "Video tutorials and live chat support",
+      ]
+    },
+    {
+      logo: Logo,
+      bgColor: "#30422E",
+      data: [
+        "Yes",
+        "139$",
+        "Yes",
+        "39$ (up to 600 pages)",
+        "Yes",
+        "English and Spanish",
+        "600",
+        "Yes",
+        "Yes",
+      ]
+    },
+    {
+      logo: StoryWorthy,
+      bgColor: "#15372F",
+      data: [
+        "No",
+        "139$ (initially 99$ but additional 40$ if you want full-color book)",
+        "For a full-color book, 40$ additional. Cannot be prepaid by gifter",
+        "79$ (up to 300 pages) ,99$ (up to 480 pages)",
+        "No, only for US.",
+        "English",
+        "300 (480 if you pay 20$ additionally)",
+        "Yes",
+        "No"
+      ]
+    }
+  ]
+
+  const featuresDetails = [
+    {
+      header: "Features",
+      bgColor: "#E1683B",
+      data: [
+        "Answer and Question Format",
+        "Narrative Fusion Format",
+        "Formatting Features (bold, italics and more)",
+        "Assisted Editing and Grammar Check",
+        "Voice Over Text",
+        "Family Tree",
+        "Auto Photo Improvement",
+        "Mobile and Tablet-friendly"
+      ]
+    },
+    {
+      logo: Logo,
+      bgColor: "#30422E",
+      data: [
+        "Yes",
+        "Yes, in Standard and Premium",
+        "Yes",
+        "Yes",
+        "Yes, in Standard and Premium",
+        "Yes, in Standard and Premium",
+        "Yes",
+        "Yes",
+      ]
+    },
+    {
+      logo: StoryWorthy,
+      bgColor: "#15372F",
+      data: [
+        "Yes",
+        "No",
+        "No",
+        "No",
+        "No",
+        "No",
+        "No",
+        "No",
+      ]
+    }
+  ]
   return (
     <Box sx={{ minHeight: "100vh" }} className={styles.pricingPage}>
       <NavBar color="#F3ECDA" logo={Logo} />
 
       <Pricing />
       <Working data={pointsArray} heading="How we’re different:" subHeading="Lifescript vs Storyworth" />
-      <PricingDetails />
+      <PricingDetails cardsDetail={pricingDetails} heading="Pricing and Book Details" />
+      <PricingDetails cardsDetail={featuresDetails} heading="Features Comparison" />
       <ContactFooter
         title="Still confused? Ask away!"
         subTitle="Contact us Now!!!"
