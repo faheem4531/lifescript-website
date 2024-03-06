@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from './NavBar.module.css'
 import Button from "../button/Button";
 import NextIcon from '@/app/_assets/svgs/next.svg'
+import Link from "next/link";
 
 const NavBar = ({ color, logo }) => {
   return (
@@ -21,11 +22,24 @@ const NavBar = ({ color, logo }) => {
       }}
         color={color}
       >
-        <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }} className={styles.underLine}>Home</Typography>
-        <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Features</Typography>
-        <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Blog</Typography>
-        <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>About Us</Typography>
-        <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>FAQ &apos; s</Typography>
+        <Link href="/">
+          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }} className={styles.underLine}>Home</Typography>
+        </Link>
+        <Link href="/features">
+          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Features</Typography>
+        </Link>
+        <Link href="/">
+          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Blog</Typography>
+        </Link>
+        <Link href="/">
+          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>About Us</Typography>
+        </Link>
+        <Link href="/">
+          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Pricing</Typography>
+        </Link>
+        <Link href="/">
+          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>FAQ &apos; s</Typography>
+        </Link>
 
         <Box sx={{ paddingBottom: '10px' }}>
           <Button

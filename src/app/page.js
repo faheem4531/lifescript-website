@@ -1,15 +1,15 @@
-import AboutUs from './pages/aboutUs'
-import BlogPage from './pages/blog'
-import Features from './pages/features'
-import HomePage from './pages/homePage'
+import AboutUs from './pages/aboutUs/page'
+import BlogPage from './pages/blog/page'
+import Features from './pages/features/page'
+import HomePage from './pages/homePage/page'
 
 export default function Home() {
   return (
     <>
-      {/* <HomePage /> */}
+      <HomePage />
       {/* <Features /> */}
       {/* <BlogPage /> */}
-      <AboutUs />
+      {/* <AboutUs /> */}
     </>
   )
 };
