@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { Box, Typography } from "@mui/material";
 import Image from "next/image"
-// import CustomizedAccordions from "./Question";
 import Question from "./Question.js"
 
 const GotQuestions = () => {
@@ -74,7 +73,7 @@ const GotQuestions = () => {
 
   return (
     <Box
-      sx={{ padding: "250px 160px  200px 110px" }}
+      sx={{ padding: "150px 160px  200px 110px" }}
     >
       <Typography sx={{ fontSize: "52px", fontWeight: 500, fontFamily: "Besley" }}>Got Questions?</Typography>
       <Typography sx={{ fontSize: "20px", marginTop: "10px", fontFamily: "myfamily" }}>Got Questions? We&apos;ve Got Answers!</Typography>

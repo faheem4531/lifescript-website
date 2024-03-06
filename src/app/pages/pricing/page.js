@@ -4,6 +4,7 @@ import { Box } from "@mui/material";
 import Footer from "@/app/components/footer/Footer";
 import ContactFooter from "@/app/components/footer/ContactFooter";
 import NavBar from "@/app/components/navBar/NavBar";
+import GotQuestions from "@/app/components/questions/GotQuestions";
 import styles from "./sections/Pricing.module.css"
 
 import Logo from "@/app/_assets/svgs/logo-footer.svg"
@@ -125,14 +126,17 @@ const PricingPage = () => {
       ]
     }
   ]
+
   return (
     <Box sx={{ minHeight: "100vh" }} className={styles.pricingPage}>
       <NavBar color="#F3ECDA" logo={Logo} />
-
       <Pricing />
       <Working data={pointsArray} heading="How we’re different:" subHeading="Lifescript vs Storyworth" />
-      <PricingDetails cardsDetail={pricingDetails} heading="Pricing and Book Details" />
-      <PricingDetails cardsDetail={featuresDetails} heading="Features Comparison" />
+      <Box sx={{ margin: "100px 0 0" }}>
+        <PricingDetails cardsDetail={pricingDetails} heading="Pricing and Book Details" />
+        <PricingDetails cardsDetail={featuresDetails} heading="Features Comparison" />
+      </Box>
+      <GotQuestions />
       <ContactFooter
         title="Still confused? Ask away!"
         subTitle="Contact us Now!!!"

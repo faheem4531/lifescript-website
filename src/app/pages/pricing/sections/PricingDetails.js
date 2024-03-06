@@ -9,7 +9,7 @@ import LeftStyle from "@/app/_assets/pngs/left-style2.png"
 const PricingDetails = ({ heading, cardsDetail }) => {
 
   return (
-    <Box sx={{ bgcolor: "", margin: "150px 0" }} className={styles.pricingDetails}>
+    <Box className={styles.pricingDetails}>
       <PrimaryHeading heading={heading} showStyle={true} left={LeftStyle} right={RightStyle} />
       <Box sx={{ margin: "100px 0 100px ", display: "flex", justifyContent: "center", columnGap: "16px" }}>
         {cardsDetail.map((item, index) => <DetailCard
