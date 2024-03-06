@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Box, Typography } from "@mui/material";
 import Image from "next/image"
 import Question from "./Question.js"
+import styles from "../ComponentsStyles.module.css"
 
 const GotQuestions = () => {
 
@@ -74,6 +75,7 @@ const GotQuestions = () => {
   return (
     <Box
       sx={{ padding: "150px 160px  200px 110px" }}
+      className={styles.gotQsBg}
     >
       <Typography sx={{ fontSize: "52px", fontWeight: 500, fontFamily: "Besley" }}>Got Questions?</Typography>
       <Typography sx={{ fontSize: "20px", marginTop: "10px", fontFamily: "myfamily" }}>Got Questions? We&apos;ve Got Answers!</Typography>

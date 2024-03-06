@@ -64,12 +64,10 @@
   right:-20px;
   bottom: -10px;
 }
-/* .sideCards:hover, .sideCards1:hover {
-  background-color: #30422E;
-  color: #F4F4F4;
-  transition: all .3s ease;
+ 
+/* Got Questions  */
+.gotQsBg{
+  background-image: url(../_assets/pngs/bg-gift-tag.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-
-.price :hover {
-  color: #F4F4F4;
-} */
