@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import BlogImage from "@/app/_assets/pngs/blog-img.png"
 import More from "@/app/_assets/svgs/read-more.svg"
+import Link from "next/link";
 
 const Blogs = () => {
   const blogsData = [
@@ -56,7 +57,9 @@ function MapCard({ title, date, image, details }) {
       </Box>
       <Image src={image} alt="img" className={styles.blogImg} />
       <Typography sx={{ fontSize: "16px", maxWidth: "1050px", width: "100%" }}>{details}
-        <span className={styles.readMore}>Read more <Image src={More} alt="more" /></span>
+        <Link href="/blog/blogDetails">
+          <span className={styles.readMore}>Read more <Image src={More} alt="more" /></span>
+        </Link>
       </Typography>
     </Box>
   )
