@@ -8,6 +8,7 @@ import Gifting from "./sections/Gifting";
 import Experience from "../components/experience/Experience";
 import Working from "../components/working/Working";
 import DesignCard from "./sections/DesignCard";
+import GotQuestions from "../components/questions/GotQuestions";
 
 const GiftingPage = () => {
 
@@ -36,6 +37,7 @@ const GiftingPage = () => {
       <Experience />
       <Working data={pointsArray} heading=" How it works" />
       <DesignCard />
+      <GotQuestions />
       <ContactFooter
         title="Still have any questions?"
         subTitle="Contact us Now!!!"
