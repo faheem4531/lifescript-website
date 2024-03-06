@@ -9,6 +9,16 @@
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 67px 50%;
+  animation: slideIn 1s ease-in-out infinite alternate;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px); 
+  }
 }
 
 @media screen and (max-width :1440px) {

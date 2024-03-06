@@ -1,11 +1,19 @@
+'use client'
+
 import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 import styles from './NavBar.module.css'
 import Button from "../button/Button";
 import NextIcon from '@/app/_assets/svgs/next.svg'
 import Link from "next/link";
+import { usePathname } from 'next/navigation'
 
 const NavBar = ({ color, logo }) => {
+
+  const pathname = usePathname();
+
+  console.log(pathname, "   path");
+
   return (
     <Box sx={{
       display: 'flex',
@@ -23,22 +31,38 @@ const NavBar = ({ color, logo }) => {
         color={color}
       >
         <Link href="/">
-          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }} className={styles.underLine}>Home</Typography>
+          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}
+            className={`link ${pathname === '/' ? styles.underLine : ''}`}
+          >Home</Typography>
         </Link>
         <Link href="/features">
-          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Features</Typography>
+          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}
+            className={`link ${pathname === '/features' ? styles.underLine : ''}`}
+          >Features</Typography>
         </Link>
         <Link href="/blog">
-          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Blog</Typography>
+          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}
+            className={`link ${pathname === '/blog' || pathname === '/blog/blogDetails' ? styles.underLine : ''}`}
+
+          >Blog</Typography>
         </Link>
         <Link href="/aboutUs">
-          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>About Us</Typography>
+          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}
+            className={`link ${pathname === '/aboutUs' ? styles.underLine : ''}`}
+
+          >About Us</Typography>
         </Link>
         <Link href="/pricing">
-          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Pricing</Typography>
+          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}
+            className={`link ${pathname === '/pricing' ? styles.underLine : ''}`}
+
+          >Pricing</Typography>
         </Link>
         <Link href="/faqs">
-          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>FAQ &apos; s</Typography>
+          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}
+            className={`link ${pathname === '/faqs' ? styles.underLine : ''}`}
+
+          >FAQ &apos; s</Typography>
         </Link>
 
         <Box sx={{ paddingBottom: '10px' }}>
