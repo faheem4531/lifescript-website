@@ -1,0 +1,6 @@
+.pricingPage{
+  background-image: url(../../../_assets/pngs/bg-blog.png);
+  background-repeat: no-repeat;
+  background-size:100% 200px;
+  object-fit: cover;
+}
