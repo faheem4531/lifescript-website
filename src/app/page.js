@@ -1,5 +1,6 @@
 import AboutUs from './pages/aboutUs/page'
 import BlogPage from './pages/blog/page'
+import FaqPage from './pages/faqs/page'
 import Features from './pages/features/page'
 import HomePage from './pages/homePage/page'
 import PricingPage from './pages/pricing/page'
@@ -11,7 +12,8 @@ export default function Home() {
       {/* <Features /> */}
       {/* <BlogPage /> */}
       {/* <AboutUs /> */}
-      <PricingPage />
+      {/* <PricingPage /> */}
+      <FaqPage />
     </>
   )
 };
