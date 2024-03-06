@@ -52,7 +52,7 @@
 /* GifTab  */
 
 .gifTabBox {
-  background-image: url(../../../_assets//pngs/gifi-tab.png);
+  background-image: url(../../_assets//pngs/gifi-tab.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -71,7 +71,7 @@
 }
 
 .bookBox{
-  background-image: url(../../../_assets/pngs/bg-books.png);
+  background-image: url(../../_assets/pngs/bg-books.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }

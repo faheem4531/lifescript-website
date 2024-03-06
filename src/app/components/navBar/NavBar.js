@@ -28,16 +28,16 @@ const NavBar = ({ color, logo }) => {
         <Link href="/features">
           <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Features</Typography>
         </Link>
-        <Link href="/">
+        <Link href="/blog">
           <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Blog</Typography>
         </Link>
-        <Link href="/">
+        <Link href="/aboutUs">
           <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>About Us</Typography>
         </Link>
-        <Link href="/">
+        <Link href="/pricing">
           <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>Pricing</Typography>
         </Link>
-        <Link href="/">
+        <Link href="/faqs">
           <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}>FAQ &apos; s</Typography>
         </Link>
 

@@ -1,7 +1,7 @@
 'use client'
 
 import { Box } from "@mui/material";
-import FeaturesIntroduction from "../../components/Introduction/Introduction";
+import FeaturesIntroduction from "../components/Introduction/Introduction";
 import FeaturesItems from "./sections/Features";
 import Footer from "@/app/components/footer/Footer";
 import ContactFooter from "@/app/components/footer/ContactFooter";

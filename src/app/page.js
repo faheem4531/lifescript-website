@@ -1,19 +1,19 @@
-import AboutUs from './pages/aboutUs/page'
-import BlogPage from './pages/blog/page'
-import FaqPage from './pages/faqs/page'
-import Features from './pages/features/page'
-import HomePage from './pages/homePage/page'
-import PricingPage from './pages/pricing/page'
+import AboutUs from './aboutUs/page'
+import BlogPage from './blog/page'
+import FaqPage from './faqs/page'
+import Features from './features/page'
+import HomePage from './homePage/page'
+import PricingPage from './pricing/page'
 
 export default function Home() {
   return (
     <>
-      {/* <HomePage /> */}
+      <HomePage />
       {/* <Features /> */}
       {/* <BlogPage /> */}
       {/* <AboutUs /> */}
       {/* <PricingPage /> */}
-      <FaqPage />
+      {/* <FaqPage /> */}
     </>
   )
 };
