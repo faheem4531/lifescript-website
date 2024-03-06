@@ -9,3 +9,31 @@
   height: 40px;
   margin:50px 0 70px;
 }
+
+/* Designs Card */
+.designCard{
+  background-image: url(../../_assets/pngs/gift-design.png);
+  background-repeat: no-repeat;
+  background-position:bottom ;
+  background-size: contain;
+}
+
+.DesignImg{
+  width: 420px;
+  height: 590px;
+  z-index: -1;
+}
+
+.input{
+  background: transparent;
+  padding: 16px 22px;
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  width: 100%;
+}
+
+.input:focus{
+  outline: #30422E;
+  background-color: #fff;
+  border: 1px solid #30422E;
+  border-radius: 2px;
+}
