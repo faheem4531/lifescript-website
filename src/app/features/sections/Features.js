@@ -73,7 +73,7 @@ const FeaturesItems = () => {
   return (
     <Box sx={{ padding: "200px 120px 0" }}>
       <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", width: "90%", textAlign: "center" }}>
-        <Typography sx={{ fontSize: "52px", fontWeight: 500, marginBottom: "20px" }}>Features That Shape Your Storytelling Experience Fun and Easy</Typography>
+        <Typography sx={{ fontSize: "52px", fontWeight: 500, marginBottom: "20px", fontFamily: "Besley !important" }}>Features That Shape Your Storytelling Experience Fun and Easy</Typography>
         <Typography sx={{ fontSize: "16px", width: "80%" }}>Lifescript features make crafting your autobiography easy and engaging. Capture your life&apos;s journey, design with style, and visually represent your family heritage. Create a lasting legacy with a high-quality, printed book to share.</Typography>
       </Box>
       <Box sx={{ marginTop: "200px", display: "flex", flexDirection: "column", alignItems: "center" }}>

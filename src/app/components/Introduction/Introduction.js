@@ -17,7 +17,7 @@ const FeaturesIntroduction = ({ heading, keyWorld, subHeading = false, width = "
       <Box sx={{ textAlign: 'center', position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)" }}
         width={width}
       >
-        <Box sx={{ fontSize: "55px", fontWeight: 500, marginBottom: "30px", color: "#F3ECDA" }}>{heading}{" "}
+        <Box sx={{ fontSize: "55px", fontWeight: 500, marginBottom: "30px", color: "#F3ECDA", fontFamily: "Besley !important" }}>{heading}{" "}
           <span className={styles.lineBox}>
             {keyWorld}
             <Image src={Line} alt="img" className={styles.line} />

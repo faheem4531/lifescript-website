@@ -17,7 +17,7 @@ const Points = ({ no = false, icon, title, discription }) => {
         color: "#E1683B",
         fontSize: "20px",
         fontWeight: 500,
-        fontFamily: "Besley"
+        fontFamily: "Besley !important"
       }}>
         {no}
       </Typography>}
@@ -28,7 +28,7 @@ const Points = ({ no = false, icon, title, discription }) => {
         fontSize: "28px",
         fontWeight: 500,
         minHeight: "125px",
-        fontFamily: "Besley",
+        fontFamily: "Besley !important",
       }}>
         {title}
       </Typography>

@@ -26,7 +26,7 @@ const BlogDetailPage = () => {
               </Link>
               <Typography>Back to Blog</Typography>
             </Box>
-            <Typography sx={{ fontSize: "40px", fontWeight: 500, marginBottom: "20px", width: "80%" }}>
+            <Typography sx={{ fontSize: "40px", fontWeight: 500, marginBottom: "20px", width: "80%", fontFamily: "Besley !important" }}>
               Crafting Your Legacy: A Guide to Writing Your Autobiography
             </Typography>
             <Typography x={{ fontSize: "16px" }}>

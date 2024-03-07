@@ -18,7 +18,7 @@ const PrimaryHeading = ({ heading, showStyle, color, lineHeight, left = LeftStyl
     }}
     >
       {showStyle && <Image src={left} alt="logo" />}
-      <Box color={color} lineHeight={lineHeight} sx={{ fontSize: "52px", fontWeight: 500, margin: "0 18px", position: "relative", fontFamily: "Besley" }}>
+      <Box color={color} lineHeight={lineHeight} sx={{ fontSize: "52px", fontWeight: 500, margin: "0 18px", position: "relative", fontFamily: "Besley !important" }}>
         {heading}
         <Box sx={{ position: "absolute", top: "25px", right: "0" }}>
           <Image src={Line} style={styleLine} alt="mark" />

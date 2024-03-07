@@ -36,7 +36,7 @@ const Suggestion = () => {
         position: "relative",
       }}
       >
-        <Typography sx={{ fontSize: "52px", fontWeight: 500, fontFamily: "Besley" }}>
+        <Typography sx={{ fontSize: "52px", fontWeight: 500, fontFamily: "Besley !important" }}>
           Perfect for when you want to
         </Typography>
         <Image src={FlowerLine} alt="logo" className={styles.fullStyle} />

@@ -83,11 +83,11 @@ const Faqs = () => {
   return (
     <Box sx={{ padding: "200px 260px 150px 150px" }}>
       <Box sx={{ borderBottom: "1px solid #E1683B", paddingBottom: "35px" }}>
-        <Typography sx={{ fontSize: "60px", fontWeight: 500, fontFamily: "Besley" }}>FAQs</Typography>
+        <Typography sx={{ fontSize: "60px", fontWeight: 500, fontFamily: "Besley !important" }}>FAQs</Typography>
         <Typography sx={{ fontSize: "16px", fontWeight: 500 }}>Frequently Asked Questions.</Typography>
         <Typography sx={{ fontSize: "16px", fontWeight: 500 }}>Here are some common questions about Lifescript.</Typography>
       </Box>
-      <Box sx={{ margin: "120px 0 0 0", display: "flex", position: "relative"}}>
+      <Box sx={{ margin: "120px 0 0 0", display: "flex", position: "relative" }}>
         <Image src={Points} alt="img" className={styles.qsPoints} />
 
         <Box>
@@ -107,7 +107,7 @@ export default Faqs;
 function QuestionNo({ qs, ans }) {
   return (
     <Box sx={{ margin: " 0 0 70px 60px", maxWidth: "800px" }}>
-      <Typography sx={{ fontSize: "24px", fontWeight: 500, fontFamily: "Besley" }}>{qs}</Typography>
+      <Typography sx={{ fontSize: "24px", fontWeight: 500, fontFamily: "Besley !important" }}>{qs}</Typography>
       <Typography sx={{ fontSize: "16px", padding: "20px 0 0 30px" }}>{ans}</Typography>
     </Box>
   )

@@ -52,7 +52,7 @@ function MapCard({ title, date, image, details }) {
   return (
     <Box sx={{ padding: "0 190px 170px 200px" }}>
       <Box>
-        <Typography sx={{ fontSize: "40px", fontWeight: 500, marginBottom: "20px", width: "80%" }}>{title}</Typography>
+        <Typography sx={{ fontSize: "40px", fontWeight: 500, marginBottom: "20px", width: "80%", fontFamily: "Besley !important" }}>{title}</Typography>
         <Typography x={{ fontSize: "16px" }}>{date}</Typography>
       </Box>
       <Image src={image} alt="img" className={styles.blogImg} />

@@ -23,7 +23,7 @@ const GifTab = ({ heading, subHeading, icon, button }) => {
         <Box sx={{ width: "100%" }}>
 
           <Typography sx={{
-            fontSize: "32px", fontWeight: 500, fontFamily: "Besley"
+            fontSize: "32px", fontWeight: 500, fontFamily: "Besley !important"
           }}>{heading}
           </Typography>
           {subHeading && <Typography sx={{

@@ -48,7 +48,7 @@ const Values = () => {
     <Box sx={{ padding: "180px 160px 150px 145px", display: "flex", justifyContent: "center" }} className={styles.valuesBox}>
       <Box sx={{ maxWidth: "1200px" }}>
 
-        <Typography sx={{ fontSize: "52px", fontWeight: 500, paddingBottom: "20px", borderBottom: "1px solid #E1683B" }}>Our Values</Typography>
+        <Typography sx={{ fontSize: "52px", fontWeight: 500, paddingBottom: "20px", borderBottom: "1px solid #E1683B", fontFamily: "Besley !important" }}>Our Values</Typography>
         <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", maxWidth: "1100px" }}>
           {ValueData.map((item, index) => <Value
             key={index}
