@@ -56,7 +56,7 @@ export default function Question({ qs, ans, panelNo, expanded, handleExpands }) 
           <Typography sx={{ fontFamily: "myfamily" }}>{qs}</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography sx={{ padding: "0px 0 10px 60px", fontSize: "14px", fontFamily: "myfamily" }}>{ans}</Typography>
+          <Typography sx={{ padding: "0px 0 10px 60px", fontSize: "14px" }}>{ans}</Typography>
         </AccordionDetails>
       </Accordion>
     </div>

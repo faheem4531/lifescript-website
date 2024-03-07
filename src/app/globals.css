@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
 
 @font-face {
-  font-family: 'myfamily'; 
-  src: url('../../public/avenir/AvenirLTStd-Roman.otf') format('opentype');
+  font-family: 'Avenir';
+  src: url('./_assets/fonts/AvenirLTStd-Black.otf') format('opentype');
+  src: url('./_assets/fonts/AvenirLTStd-BlackOblique.otf') format('opentype');
+  src: url('./_assets/fonts/AvenirLTStd-Book.otf') format('opentype');
+  src: url('./_assets/fonts/AvenirLTStd-BookOblique.otf') format('opentype');
+  src: url('./_assets/fonts/AvenirLTStd-Heavy.otf') format('opentype');
+  src: url('./_assets/fonts/AvenirLTStd-HeavyOblique.otf') format('opentype');
+  src: url('./_assets/fonts/AvenirLTStd-Light.otf') format('opentype');
+  src: url('./_assets/fonts/AvenirLTStd-LightOblique.otf') format('opentype');
+  src: url('./_assets/fonts/AvenirLTStd-Medium.otf') format('opentype');
+  src: url('./_assets/fonts/AvenirLTStd-MediumOblique.otf') format('opentype');
+  src: url('./_assets/fonts/AvenirLTStd-Oblique.otf') format('opentype');
+  src: url('./_assets/fonts/AvenirLTStd-Roman.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
-
 
 :root {
   --bg-primary: #F3ECDA;
@@ -24,14 +34,11 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  font-family: "myfamily", serif !important;
 }
 
 body {
   background-color: var(--bg-primary);
   color: var(--text-secondary);
-  font-family: "myfamily", serif !important;
-
 }
 
 a {
@@ -61,3 +68,6 @@ button {
   border: none;
 }
 
+.MuiTypography-root {
+  font-family: Avenir;
+}

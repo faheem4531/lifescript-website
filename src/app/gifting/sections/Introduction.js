@@ -32,7 +32,7 @@ const HeroGifting = () => {
         img1={Pen}
       />
       <Typography
-        sx={{ fontSize: '11px', lineHeight: '24px', fontWeight: 500, margin: '10px 0 150px', fontFamily: "myfamily" }}
+        sx={{ fontSize: '11px', lineHeight: '24px', fontWeight: 500, margin: '10px 0 150px' }}
       >No credit card required
       </Typography>
     </Box>

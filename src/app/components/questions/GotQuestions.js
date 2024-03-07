@@ -80,7 +80,7 @@ const GotQuestions = () => {
       className={styles.gotQsBg}
     >
       <Typography sx={{ fontSize: "52px", fontWeight: 500, fontFamily: "Besley" }}>Got Questions?</Typography>
-      <Typography sx={{ fontSize: "20px", marginTop: "10px", fontFamily: "myfamily" }}>Got Questions? We&apos;ve Got Answers!</Typography>
+      <Typography sx={{ fontSize: "20px", marginTop: "10px" }}>Got Questions? We&apos;ve Got Answers!</Typography>
       <Box sx={{ margin: "85px 0 0", display: "flex", columnGap: "10%" }}>
         <Box sx={{ width: "45%" }}>
           {DumyQs1.slice(0, 4).map((item, index) => <Question

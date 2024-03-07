@@ -41,7 +41,7 @@ const Testimonial = () => {
   return (
     <Box>
       <PrimaryHeading showStyle={false} heading="Testimonials" />
-      <Typography sx={{ color: "#495845", margin: "10px 0 100px", textAlign: "center", fontFamily: "myfamily" }}>
+      <Typography sx={{ color: "#495845", margin: "10px 0 100px", textAlign: "center" }}>
         Voices of appreciation: What our customers say
       </Typography>
 
@@ -85,11 +85,11 @@ function ReviewCard({ profile, name, designation, details }) {
           className={styles.clientImg}
         />
         <Box>
-          <Typography sx={{ color: "#E1683B", fontWeight: 800, fontFamily: "myfamily" }}>{name}</Typography>
-          <Typography sx={{ color: "#BFC4B5", fontFamily: "myfamily" }}>{designation}</Typography>
+          <Typography sx={{ color: "#E1683B", fontWeight: 800 }}>{name}</Typography>
+          <Typography sx={{ color: "#BFC4B5" }}>{designation}</Typography>
         </Box>
       </Box>
-      <Typography sx={{ padding: "20px 20px 0 10px", lineHeight: "26px", fontSize: "16px", maxWidth: "300px", fontFamily: "myfamily" }}>
+      <Typography sx={{ padding: "20px 20px 0 10px", lineHeight: "26px", fontSize: "16px", maxWidth: "300px" }}>
         &quot;{details}&quot;
       </Typography>
     </Box >

@@ -31,35 +31,35 @@ const NavBar = ({ color, logo }) => {
         color={color}
       >
         <Link href="/">
-          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}
+          <Typography sx={{ padding: ' 0 20px 10px' }}
             className={`link ${pathname === '/' ? styles.underLine : ''}`}
           >Home</Typography>
         </Link>
         <Link href="/features">
-          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}
+          <Typography sx={{ padding: ' 0 20px 10px' }}
             className={`link ${pathname === '/features' ? styles.underLine : ''}`}
           >Features</Typography>
         </Link>
         <Link href="/blog">
-          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}
+          <Typography sx={{ padding: ' 0 20px 10px' }}
             className={`link ${pathname === '/blog' || pathname === '/blog/blogDetails' ? styles.underLine : ''}`}
 
           >Blog</Typography>
         </Link>
         <Link href="/aboutUs">
-          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}
+          <Typography sx={{ padding: ' 0 20px 10px' }}
             className={`link ${pathname === '/aboutUs' ? styles.underLine : ''}`}
 
           >About Us</Typography>
         </Link>
         <Link href="/pricing">
-          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}
+          <Typography sx={{ padding: ' 0 20px 10px' }}
             className={`link ${pathname === '/pricing' ? styles.underLine : ''}`}
 
           >Pricing</Typography>
         </Link>
         <Link href="/faqs">
-          <Typography sx={{ padding: ' 0 20px 10px', fontFamily: "myfamily" }}
+          <Typography sx={{ padding: ' 0 20px 10px' }}
             className={`link ${pathname === '/faqs' ? styles.underLine : ''}`}
 
           >FAQ &apos; s</Typography>
