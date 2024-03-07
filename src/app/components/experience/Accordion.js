@@ -20,7 +20,15 @@ import VoiceToText from "@/app/_assets/gif/voice-to-text.gif"
 
 
 export default function CustomizedAccordions() {
-  const [handleColor, setHandleColor] = React.useState(false)
+  const [handleColor, setHandleColor] = React.useState(
+    {
+      qs1: false,
+      qs2: false,
+      qs3: false,
+      qs4: false,
+      qs5: false,
+      qs6: false,
+    })
 
   const [expanded, setExpanded] = React.useState();
   const [panelActive, setPanelActive] = React.useState({
@@ -75,11 +83,11 @@ export default function CustomizedAccordions() {
     backgroundColor: '#F3ECDA'
   }));
 
-  function handleClick() {
+  function handleClick(id) {
     setHandleColor((pre) => !pre
     )
   }
-
+  const urlGif = "https://lifescript-media.s3.eu-north-1.amazonaws.com/formatting-features.gif"
   return (
     <>
       <Box sx={{ maxHeight: "460px" }}>
@@ -188,7 +196,11 @@ export default function CustomizedAccordions() {
       </Box>
 
       <Box sx={{ position: "relative" }}>
-        {panelActive.panel1 && <Image src={Narrative} alt="gif" className={styles.gif} />}
+        {panelActive.panel1 && <Image src={urlGif}
+          alt="gif"
+          width={610}
+          height={380}
+          className={styles.gif} />}
         {panelActive.panel2 && <Image src={AssistedEditing} alt="gif" className={styles.gif} />}
         {panelActive.panel3 && <Image src={VoiceToText} alt="gif" className={styles.gif} />}
         {panelActive.panel4 && <Image src={FamilyTree} alt="gif" className={styles.gif} />}
