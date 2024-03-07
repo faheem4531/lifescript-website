@@ -66,12 +66,14 @@ const NavBar = ({ color, logo }) => {
         </Link>
 
         <Box sx={{ paddingBottom: '10px' }}>
-          <Button
-            title='Sign Up'
-            width='140px'
-            height='45px'
-            img2={NextIcon}
-          />
+          <a href="https://www.thelifescript.com/">
+            <Button
+              title='Sign Up'
+              width='140px'
+              height='45px'
+              img2={NextIcon}
+            />
+          </a>
         </Box>
       </Box>
     </Box>

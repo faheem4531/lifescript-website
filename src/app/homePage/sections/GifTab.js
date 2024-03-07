@@ -1,8 +1,11 @@
+'use client'
+
 import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 import styles from "./HomeSections.module.css"
 import Button from "@/app/components/button/Button";
 import Hurt from "@/app/_assets/pngs/bg-gift-tag.png"
+import Link from "next/link";
 
 const GifTab = ({ heading, subHeading, icon, button }) => {
 
@@ -32,12 +35,14 @@ const GifTab = ({ heading, subHeading, icon, button }) => {
           </Typography>}
 
         </Box>
-        <Button
-          title={button}
-          width='180px'
-          height='55px'
-          img1={icon}
-        />
+        <Link href="/gifting">
+          <Button
+            title={button}
+            width='180px'
+            height='55px'
+            img1={icon}
+          />
+        </Link>
 
       </Box>
       <Image src={Hurt} alt="img" className={styles.bgHurt} />
